@@ -14,7 +14,7 @@ import BlogPage from "./Pages/BlogPage.tsx";
 const routers = createBrowserRouter(
   [
     {
-      path: "https://NourAlhoussein.github.io/Task_6_Blogs/",
+      path: "/",
       element: <App />,
       children: [
         { path: "/", element: <HomeBlogs /> },
