@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+
+@custom-variant dark (&:where(.dark, .dark *));
+#root {
+  padding: 0px !important;
+  max-width: 100% !important;
+}
+
+html,
+body,
+#root {
+  height: auto;
+}
+
+/* Default light + dark background */
+body {
+  @apply bg-white dark:bg-primaryColor transition-colors duration-300;
+}
+
+@theme {
+  --color-primaryColor: #090d1f;
+}
+@layer utilities {
+  .font-inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+}
