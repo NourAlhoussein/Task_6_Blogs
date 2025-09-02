@@ -1,9 +1,68 @@
 import type { Blog } from "../Types/type";
-import image8 from "../../public/images/posts/8.webp";
+import image1 from "../../public/images/posts/1.webp";
+import image1_1 from "../../public/images/posts/deatils/1/1.webp";
+import image1_2 from "../../public/images/posts/deatils/1/2.webp";
+import image1_3 from "../../public/images/posts/deatils/1/3.webp";
+import image1_4 from "../../public/images/posts/deatils/1/4.webp";
+import image1_5 from "../../public/images/posts/deatils/1/5.webp";
+import image1_6 from "../../public/images/posts/deatils/1/6.webp";
+import image1_7 from "../../public/images/posts/deatils/1/7.webp";
+import image1_8 from "../../public/images/posts/deatils/1/8.webp";
+import image1_9 from "../../public/images/posts/deatils/1/9.webp";
+import image2 from "../../public/images/posts/2.webp";
+import image2_1 from "../../public/images/posts/deatils/2/2.webp";
+import image2_2 from "../../public/images/posts/deatils/2/1.webp";
+import image2_3 from "../../public/images/posts/deatils/2/3.webp";
+import image2_4 from "../../public/images/posts/deatils/2/4.webp";
+import image2_5 from "../../public/images/posts/deatils/2/5.webp";
+import image2_6 from "../../public/images/posts/deatils/2/6.webp";
+import image2_7 from "../../public/images/posts/deatils/2/7.webp";
+import image3 from "../../public/images/posts/3.webp";
+import image3_1 from "../../public/images/posts/deatils/3/1.webp";
+import image3_2 from "../../public/images/posts/deatils/3/2.webp";
+import image3_3 from "../../public/images/posts/deatils/3/3.webp";
+import image3_4 from "../../public/images/posts/deatils/3/4.webp";
+import image3_5 from "../../public/images/posts/deatils/3/5.webp";
+import image3_6 from "../../public/images/posts/deatils/3/6.webp";
+import image4 from "../../public/images/posts/4.webp";
+import image4_1 from "../../public/images/posts/deatils/4/1.webp";
+import image4_2 from "../../public/images/posts/deatils/4/2.webp";
+import image4_3 from "../../public/images/posts/deatils/4/3.webp";
+import image4_4 from "../../public/images/posts/deatils/4/4.webp";
+import image4_5 from "../../public/images/posts/deatils/4/5.webp";
+import image4_6 from "../../public/images/posts/deatils/4/6.webp";
+import image5 from "../../public/images/posts/5.webp";
+import image5_1 from "../../public/images/posts/deatils/5/1.webp";
+import image5_2 from "../../public/images/posts/deatils/5/2.webp";
+import image5_3 from "../../public/images/posts/deatils/5/3.webp";
+import image5_5 from "../../public/images/posts/deatils/5/5.webp";
+import image6 from "../../public/images/posts/6.webp";
+import image6_1 from "../../public/images/posts/deatils/6/1.webp";
+import image6_2 from "../../public/images/posts/deatils/6/2.webp";
+import image6_3 from "../../public/images/posts/deatils/6/3.webp";
+import image6_4 from "../../public/images/posts/deatils/6/4.webp";
+import image6_5 from "../../public/images/posts/deatils/6/5.webp";
+import image6_6 from "../../public/images/posts/deatils/6/6.webp";
+import image7 from "../../public/images/posts/7.webp";
 import image7_1 from "../../public/images/posts/deatils/7/1.webp";
 import image7_2 from "../../public/images/posts/deatils/7/2.webp";
 import image7_3 from "../../public/images/posts/deatils/7/3.webp";
 import image7_4 from "../../public/images/posts/deatils/7/4.webp";
+import image8 from "../../public/images/posts/8.webp";
+import image8_1 from "../../public/images/posts/deatils/8/1.webp";
+import image8_2 from "../../public/images/posts/deatils/8/2.webp";
+import image8_3 from "../../public/images/posts/deatils/8/3.webp";
+import image8_4 from "../../public/images/posts/deatils/8/4.webp";
+import image9 from "../../public/images/posts/9.webp";
+import image9_1 from "../../public/images/posts/deatils/9/1.webp";
+import image9_2 from "../../public/images/posts/deatils/9/2.webp";
+import image9_3 from "../../public/images/posts/deatils/9/3.webp";
+import image9_4 from "../../public/images/posts/deatils/9/4.webp";
+import image10 from "../../public/images/posts/10.webp";
+import image10_1 from "../../public/images/posts/deatils/10/1.webp";
+import image10_2 from "../../public/images/posts/deatils/10/2.webp";
+import image10_3 from "../../public/images/posts/deatils/10/3.webp";
+import image10_4 from "../../public/images/posts/deatils/10/4.webp";
 export const blogsData: Blog[] = [
   /* --------------id-1---------------- */
   {
@@ -105,7 +164,7 @@ export const blogsData: Blog[] = [
     date: "Sunday , 1 Jan 2023",
     title: "What is Wireframing?",
     name: "Candice Wu •",
-    image: "/src/assets/images/posts/7.webp",
+    image: image7,
     description: [
       "Introduction to Wireframing and its Principles. Learn from the best in the industry.",
     ],
@@ -117,7 +176,7 @@ export const blogsData: Blog[] = [
     details: [
       {
         title: "What is Wireframing?",
-        blogImage: "/src/assets/images/posts/deatils/8/1.webp",
+        blogImage: image8_1,
         ImageDescription:
           "A low-fidelity wireframe sketch of a website layout.",
         paragraphs01: [
@@ -129,7 +188,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Why Wireframes Matter",
-        blogImage: "/src/assets/images/posts/deatils/8/2.webp",
+        blogImage: image8_2,
         ImageDescription:
           "Wireframes help teams visualize layout and flow before development.",
         paragraphs: [
@@ -141,7 +200,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Low vs High-Fidelity Wireframes",
-        blogImage: "/src/assets/images/posts/deatils/8/3.webp",
+        blogImage: image8_3,
         ImageDescription:
           "Side-by-side comparison of low-fidelity vs high-fidelity wireframes.",
         paragraphs: [
@@ -158,7 +217,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Common Wireframing Tools",
-        blogImage: "/src/assets/images/posts/deatils/8/1.webp",
+        blogImage: image8_1,
         ImageDescription:
           "Logos and screenshots of popular wireframing tools like Figma, Balsamiq, and Adobe XD.",
         paragraphs: [
@@ -170,7 +229,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Best Practices in Wireframing",
-        blogImage: "/src/assets/images/posts/deatils/8/4.webp",
+        blogImage: image8_4,
         ImageDescription:
           "Wireframing tips: use placeholders, avoid color, stay focused on layout.",
         paragraphs: [
@@ -204,7 +263,7 @@ export const blogsData: Blog[] = [
     id: 3,
     date: "Sunday , 1 Jan 2023",
     title: "PM mental models",
-    image: "/src/assets/images/posts/6.webp",
+    image: image6,
     name: "Demi WIlkinson •",
     description: [
       "Mental models are simple expressions of complex processes or relationships.",
@@ -217,7 +276,7 @@ export const blogsData: Blog[] = [
     details: [
       {
         title: "What Are Mental Models?",
-        blogImage: "/src/assets/images/posts/deatils/9/1.webp",
+        blogImage: image9_1,
         ImageDescription:
           "Illustration showing a brain with flowcharts representing mental processing.",
         paragraphs01: [
@@ -229,7 +288,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Why PMs Should Use Mental Models",
-        blogImage: "/src/assets/images/posts/deatils/9/2.webp",
+        blogImage: image9_2,
         ImageDescription:
           "PM evaluating features, users, and trade-offs on a decision map.",
         paragraphs: [
@@ -241,7 +300,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Popular Mental Models for PMs",
-        blogImage: "/src/assets/images/posts/deatils/9/3.webp",
+        blogImage: image9_3,
         ImageDescription:
           "List of well-known mental models like Eisenhower Matrix and First Principles.",
         paragraphs: [
@@ -260,7 +319,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Mental Models in Daily Work",
-        blogImage: "/src/assets/images/posts/deatils/9/4.webp",
+        blogImage: image9_4,
         ImageDescription:
           "PM whiteboarding trade-offs using the Eisenhower Matrix.",
         paragraphs: [
@@ -287,7 +346,7 @@ export const blogsData: Blog[] = [
     id: 4,
     date: "Sunday , 1 Jan 2023",
     title: "Bill Walsh leadership lessons",
-    image: "/src/assets/images/posts/5.webp",
+    image: image5,
     name: "Alec Whitten • ",
     description: [
       "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
@@ -300,7 +359,7 @@ export const blogsData: Blog[] = [
     details: [
       {
         title: "The Legacy of Bill Walsh",
-        blogImage: "/src/assets/images/posts/deatils/10/1.webp",
+        blogImage: image10_1,
         ImageDescription:
           "A photo of Bill Walsh on the sidelines coaching, with a strategic game plan in the background.",
         paragraphs01: [
@@ -312,7 +371,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Standard of Performance",
-        blogImage: "/src/assets/images/posts/deatils/10/2.webp",
+        blogImage: image10_2,
         ImageDescription:
           "A chalkboard graphic showing ‘Standards’ over ‘Results’.",
         paragraphs: [
@@ -324,7 +383,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Lead with Precision and Intent",
-        blogImage: "/src/assets/images/posts/deatils/10/3.webp",
+        blogImage: image10_3,
         ImageDescription:
           "Diagram of structured team responsibilities and leadership layers.",
         paragraphs: [
@@ -336,7 +395,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Empower People to Think Like Leaders",
-        blogImage: "/src/assets/images/posts/deatils/10/4.webp",
+        blogImage: image10_4,
         ImageDescription:
           "Team huddle with players and assistants in active decision-making.",
         paragraphs: [
@@ -348,7 +407,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Resilience in the Face of Setbacks",
-        blogImage: "/src/assets/images/posts/deatils/10/1.webp",
+        blogImage: image10_1,
         ImageDescription:
           "Visual showing a comeback trajectory from losses to championships.",
         paragraphs: [
@@ -375,7 +434,7 @@ export const blogsData: Blog[] = [
     id: 5,
     date: "Sunday , 1 Jan 2023",
     title: "Podcast: Creating a better CX Community",
-    image: "/src/assets/images/posts/10.webp",
+    image: image10,
     name: "Orlando Diggs •",
     description: [
       "Starting a community doesn’t need to be complicated, but how do you get started?",
@@ -392,7 +451,7 @@ export const blogsData: Blog[] = [
     details: [
       {
         title: "Why a CX Community Matters",
-        blogImage: "/src/assets/images/posts/deatils/5/5.webp",
+        blogImage: image5_5,
         ImageDescription:
           "Illustration of a group collaborating on customer experience improvements.",
         paragraphs01: [
@@ -404,7 +463,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Starting from Zero",
-        blogImage: "/src/assets/images/posts/deatils/5/1.webp",
+        blogImage: image5_1,
         ImageDescription:
           "A seed growing into a community tree—a metaphor for starting simple.",
         paragraphs: [
@@ -420,7 +479,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "What Makes a Community Thrive?",
-        blogImage: "/src/assets/images/posts/deatils/5/2.webp",
+        blogImage: image5_2,
         ImageDescription:
           "Icons of engagement, events, feedback loops, and content sharing.",
         paragraphs: [
@@ -439,7 +498,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Podcast Highlights with Orlando Diggs",
-        blogImage: "/src/assets/images/posts/deatils/5/3.webp",
+        blogImage: image5_3,
         ImageDescription:
           "Photo or illustration of Orlando Diggs with podcast wave graphics.",
         paragraphs: [
@@ -455,7 +514,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Tips for Your First 100 Members",
-        blogImage: "/src/assets/images/posts/deatils/5/5.webp",
+        blogImage: image5_5,
         ImageDescription:
           "A staircase with 100 steps metaphor for community growth.",
         paragraphs: [
@@ -486,7 +545,7 @@ export const blogsData: Blog[] = [
     id: 6,
     date: "Sunday , 1 Jan 2023",
     title: "Our top 10 Javascript frameworks to use",
-    image: "/src/assets/images/posts/9.webp",
+    image: image9,
     name: "Drew Cano •",
     description: [
       "JavaScript frameworks make development easy with extensive features and functionalities.",
@@ -503,7 +562,7 @@ export const blogsData: Blog[] = [
     details: [
       {
         title: "Introduction",
-        blogImage: "/src/assets/images/posts/deatils/6/2.webp",
+        blogImage: image6_2,
         ImageDescription:
           "A collage of logos representing popular JavaScript frameworks.",
         paragraphs01: [
@@ -515,7 +574,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "1. React.js",
-        blogImage: "/src/assets/images/posts/deatils/6/2.webp",
+        blogImage: image6_2,
         ImageDescription: "React logo with UI component architecture diagram.",
         paragraphs: [
           {
@@ -526,7 +585,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "2. Vue.js",
-        blogImage: "/src/assets/images/posts/deatils/6/3.webp",
+        blogImage: image6_3,
         ImageDescription: "Vue logo with MVVM architecture diagram.",
         paragraphs: [
           {
@@ -537,7 +596,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "3. Angular",
-        blogImage: "/src/assets/images/posts/deatils/6/4.webp",
+        blogImage: image6_4,
         ImageDescription: "Angular logo and a dashboard-style admin UI.",
         paragraphs: [
           {
@@ -548,7 +607,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "4. Next.js",
-        blogImage: "/src/assets/images/posts/deatils/6/5.webp",
+        blogImage: image6_5,
         ImageDescription:
           "Next.js logo alongside SSR and static rendering icons.",
         paragraphs: [
@@ -560,7 +619,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "5. Nuxt.js",
-        blogImage: "/src/assets/images/posts/deatils/6/6.webp",
+        blogImage: image6_6,
         ImageDescription:
           "Nuxt.js logo with modular folder structure screenshot.",
         paragraphs: [
@@ -682,7 +741,7 @@ export const blogsData: Blog[] = [
     date: "Sunday , 1 Jan 2023",
     title: "What is Wireframing?",
     name: "Candice Wu •",
-    image: "/src/assets/images/posts/7.webp",
+    image: image7,
     description: [
       "Introduction to Wireframing and its Principles. Learn from the best in the industry.",
     ],
@@ -694,7 +753,7 @@ export const blogsData: Blog[] = [
     details: [
       {
         title: "What is Wireframing?",
-        blogImage: "/src/assets/images/posts/deatils/8/1.webp",
+        blogImage: image8_1,
         ImageDescription:
           "A low-fidelity wireframe sketch of a website layout.",
         paragraphs01: [
@@ -706,7 +765,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Why Wireframes Matter",
-        blogImage: "/src/assets/images/posts/deatils/8/2.webp",
+        blogImage: image8_2,
         ImageDescription:
           "Wireframes help teams visualize layout and flow before development.",
         paragraphs: [
@@ -718,7 +777,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Low vs High-Fidelity Wireframes",
-        blogImage: "/src/assets/images/posts/deatils/8/3.webp",
+        blogImage: image8_3,
         ImageDescription:
           "Side-by-side comparison of low-fidelity vs high-fidelity wireframes.",
         paragraphs: [
@@ -735,7 +794,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Common Wireframing Tools",
-        blogImage: "/src/assets/images/posts/deatils/8/1.webp",
+        blogImage: image8_1,
         ImageDescription:
           "Logos and screenshots of popular wireframing tools like Figma, Balsamiq, and Adobe XD.",
         paragraphs: [
@@ -747,7 +806,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Best Practices in Wireframing",
-        blogImage: "/src/assets/images/posts/deatils/8/4.webp",
+        blogImage: image8_4,
         ImageDescription:
           "Wireframing tips: use placeholders, avoid color, stay focused on layout.",
         paragraphs: [
@@ -781,7 +840,7 @@ export const blogsData: Blog[] = [
     id: 9,
     date: "Sunday , 1 Jan 2023",
     title: "PM mental models",
-    image: "/src/assets/images/posts/6.webp",
+    image: image6,
     name: "Demi WIlkinson •",
     description: [
       "Mental models are simple expressions of complex processes or relationships.",
@@ -794,7 +853,7 @@ export const blogsData: Blog[] = [
     details: [
       {
         title: "What Are Mental Models?",
-        blogImage: "/src/assets/images/posts/deatils/9/1.webp",
+        blogImage: image9_1,
         ImageDescription:
           "Illustration showing a brain with flowcharts representing mental processing.",
         paragraphs01: [
@@ -806,7 +865,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Why PMs Should Use Mental Models",
-        blogImage: "/src/assets/images/posts/deatils/9/2.webp",
+        blogImage: image9_2,
         ImageDescription:
           "PM evaluating features, users, and trade-offs on a decision map.",
         paragraphs: [
@@ -818,7 +877,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Popular Mental Models for PMs",
-        blogImage: "/src/assets/images/posts/deatils/9/3.webp",
+        blogImage: image9_3,
         ImageDescription:
           "List of well-known mental models like Eisenhower Matrix and First Principles.",
         paragraphs: [
@@ -837,7 +896,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Mental Models in Daily Work",
-        blogImage: "/src/assets/images/posts/deatils/9/4.webp",
+        blogImage: image9_4,
         ImageDescription:
           "PM whiteboarding trade-offs using the Eisenhower Matrix.",
         paragraphs: [
@@ -864,7 +923,7 @@ export const blogsData: Blog[] = [
     id: 10,
     date: "Sunday , 1 Jan 2023",
     title: "Bill Walsh leadership lessons",
-    image: "/src/assets/images/posts/5.webp",
+    image: image5,
     name: "Alec Whitten • ",
     description: [
       "Like to know the secrets of transforming a 2-14 team into a 3x Super Bowl winning Dynasty?",
@@ -877,7 +936,7 @@ export const blogsData: Blog[] = [
     details: [
       {
         title: "The Legacy of Bill Walsh",
-        blogImage: "/src/assets/images/posts/deatils/10/1.webp",
+        blogImage: image10_1,
         ImageDescription:
           "A photo of Bill Walsh on the sidelines coaching, with a strategic game plan in the background.",
         paragraphs01: [
@@ -889,7 +948,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Standard of Performance",
-        blogImage: "/src/assets/images/posts/deatils/10/2.webp",
+        blogImage: image10_2,
         ImageDescription:
           "A chalkboard graphic showing ‘Standards’ over ‘Results’.",
         paragraphs: [
@@ -901,7 +960,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Lead with Precision and Intent",
-        blogImage: "/src/assets/images/posts/deatils/10/3.webp",
+        blogImage: image10_3,
         ImageDescription:
           "Diagram of structured team responsibilities and leadership layers.",
         paragraphs: [
@@ -913,7 +972,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Empower People to Think Like Leaders",
-        blogImage: "/src/assets/images/posts/deatils/10/4.webp",
+        blogImage: image10_4,
         ImageDescription:
           "Team huddle with players and assistants in active decision-making.",
         paragraphs: [
@@ -925,7 +984,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Resilience in the Face of Setbacks",
-        blogImage: "/src/assets/images/posts/deatils/10/1.webp",
+        blogImage: image10_1,
         ImageDescription:
           "Visual showing a comeback trajectory from losses to championships.",
         paragraphs: [
@@ -952,7 +1011,7 @@ export const blogsData: Blog[] = [
     id: 11,
     date: "Sunday , 1 Jan 2023",
     title: "UX review presentations",
-    image: "/src/assets/images/posts/1.webp",
+    image: image1,
     name: "Olivia Rhye • ",
     description: [
       "How do you create compelling presentations that wow your colleagues and impress your managers?",
@@ -966,7 +1025,7 @@ export const blogsData: Blog[] = [
     details: [
       {
         title: "What is a Grid System?",
-        blogImage: "/src/assets/images/posts/deatils/4/1.webp",
+        blogImage: image4_1,
         ImageDescription:
           "Illustration showing columns, rows, gutters, and margins forming a structured grid.",
         paragraphs01: [
@@ -978,7 +1037,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Why Grids Matter in UI Design",
-        blogImage: "/src/assets/images/posts/deatils/4/2.webp",
+        blogImage: image4_2,
         ImageDescription:
           "Consistent UI layouts using grids help improve usability and visual harmony.",
         paragraphs: [
@@ -994,7 +1053,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Types of Grid Systems",
-        blogImage: "/src/assets/images/posts/deatils/4/3.webp",
+        blogImage: image4_3,
         ImageDescription:
           "Visual breakdown of column grid, modular grid, and hierarchical grid systems.",
         paragraphs: [
@@ -1012,7 +1071,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "How to Create Grid Layouts",
-        blogImage: "/src/assets/images/posts/deatils/4/4.webp",
+        blogImage: image4_4,
         ImageDescription:
           "Grid settings in Figma with 12 columns and 16px gutter.",
         paragraphs: [
@@ -1028,7 +1087,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Applying Grid Systems in Code",
-        blogImage: "/src/assets/images/posts/deatils/4/5.webp",
+        blogImage: image4_5,
         ImageDescription:
           "Tailwind CSS grid implementation mirroring the design system layout.",
         paragraphs: [
@@ -1040,7 +1099,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Best Practices for Grid-Based UI",
-        blogImage: "/src/assets/images/posts/deatils/4/6.webp",
+        blogImage: image4_6,
         ImageDescription:
           "Clean UI layout example following grid best practices.",
         paragraphs: [
@@ -1074,7 +1133,7 @@ export const blogsData: Blog[] = [
     id: 12,
     date: "Sunday , 1 Jan 2023",
     title: "Migrating to Linear 101",
-    image: "/src/assets/images/posts/2.webp",
+    image: image2,
     name: "Phoenix Baker • ",
     description: [
       "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get...",
@@ -1086,7 +1145,7 @@ export const blogsData: Blog[] = [
     details: [
       {
         title: "From Grid Design to Code",
-        blogImage: "/src/assets/images/posts/deatils/2/1.webp",
+        blogImage: image2_1,
         ImageDescription: "Designing grid-based layouts with Tailwind and CSS.",
         paragraphs01: [
           {
@@ -1097,7 +1156,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "CSS vs Tailwind CSS for Grid Layouts",
-        blogImage: "/src/assets/images/posts/deatils/2/2.webp",
+        blogImage: image2_2,
         ImageDescription:
           "Comparing raw CSS grid properties to Tailwind's utility classes.",
         paragraphs: [
@@ -1109,7 +1168,7 @@ export const blogsData: Blog[] = [
       },
       {
         example: "Example 1: Hierarchical Grid (News Layout)",
-        blogImage: "/src/assets/images/posts/deatils/2/3.webp",
+        blogImage: image2_3,
         ImageDescription:
           "News layout with two main columns and article priority based on span.",
         paragraphs: [
@@ -1123,7 +1182,7 @@ export const blogsData: Blog[] = [
       },
       {
         example: "Example 2: Modular Grid for Products",
-        blogImage: "/src/assets/images/posts/deatils/2/4.webp",
+        blogImage: image2_4,
         ImageDescription:
           "Grid of 4 columns for product cards with equal spacing.",
         paragraphs: [
@@ -1137,7 +1196,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Responsive Grid Design in Code",
-        blogImage: "/src/assets/images/posts/deatils/2/5.webp",
+        blogImage: image2_5,
         ImageDescription:
           "Using Tailwind breakpoints to adjust grid layout per device.",
         paragraphs: [
@@ -1153,7 +1212,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Common Mistakes in Grid Coding",
-        blogImage: "/src/assets/images/posts/deatils/2/6.webp",
+        blogImage: image2_6,
         ImageDescription:
           "Avoid putting content in gutters or ignoring column spans.",
         paragraphs: [
@@ -1171,7 +1230,7 @@ export const blogsData: Blog[] = [
       },
       {
         example: "Bonus Tip: Using 8px Grid System in Code",
-        blogImage: "/src/assets/images/posts/deatils/2/7.webp",
+        blogImage: image2_7,
         ImageDescription: "Applying spacing units that are multiples of 8.",
         paragraphs: [
           {
@@ -1197,7 +1256,7 @@ export const blogsData: Blog[] = [
     id: 13,
     date: "Sunday , 1 Jan 2023",
     title: "Building your API Stack",
-    image: "/src/assets/images/posts/3.webp",
+    image: image3,
     name: "Lana Steiner • ",
     description: [
       "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag...",
@@ -1209,7 +1268,7 @@ export const blogsData: Blog[] = [
     details: [
       {
         title: "Introduction to Building Your API Stack",
-        blogImage: "/src/assets/images/posts/deatils/3/6.webp",
+        blogImage: image3_6,
         ImageDescription:
           "An overview of modern API stack layers and tools involved in building them.",
         paragraphs01: [
@@ -1221,7 +1280,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Core Components of the API Stack",
-        blogImage: "/src/assets/images/posts/deatils/3/1.webp",
+        blogImage: image3_1,
         ImageDescription:
           "The primary layers of an API stack: Data, Logic, Interface, and Security.",
         paragraphs: [
@@ -1240,7 +1299,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Tools for Designing and Documenting APIs",
-        blogImage: "/src/assets/images/posts/deatils/3/2.webp",
+        blogImage: image3_2,
         ImageDescription:
           "Tools like Postman, Swagger, and Stoplight are essential for API design and collaboration.",
         paragraphs: [
@@ -1256,7 +1315,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Testing and Monitoring Your API",
-        blogImage: "/src/assets/images/posts/deatils/3/3.webp",
+        blogImage: image3_3,
         ImageDescription:
           "Automated tests and monitoring are key to a stable and scalable API.",
         paragraphs: [
@@ -1268,7 +1327,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Securing Your API",
-        blogImage: "/src/assets/images/posts/deatils/3/4.webp",
+        blogImage: image3_4,
         ImageDescription:
           "JWT, API Keys, OAuth, and rate limiting help secure API endpoints.",
         paragraphs: [
@@ -1280,7 +1339,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Versioning and Scaling Your API",
-        blogImage: "/src/assets/images/posts/deatils/3/5.webp",
+        blogImage: image3_5,
         ImageDescription:
           "API versioning and scaling strategies help keep your system stable.",
         paragraphs: [
@@ -1307,7 +1366,7 @@ export const blogsData: Blog[] = [
     id: 14,
     date: "Sunday , 1 Jan 2023",
     title: "Grid system for better Design User Interface",
-    image: "/src/assets/images/posts/4.webp",
+    image: image4,
     name: "Olivia Rhye •",
     description: [
       "A grid system is a design tool used to arrange content on a webpage. It is a series of vertical and horizontal lines that create a matrix of intersecting points, which can be used to align and organize page elements. Grid systems are used to create a consistent look and feel across a website, and can help to make the layout more visually appealing and easier to navigate.",
@@ -1319,7 +1378,7 @@ export const blogsData: Blog[] = [
     ],
     details: [
       {
-        blogImage: "/src/assets/images/posts/deatils/1/1.webp",
+        blogImage: image1_1,
         ImageDescription:
           "Definition: A grid is made up of columns, gutters, and margins that provide a structure for the layout of elements on a page.",
         paragraphs01: [
@@ -1343,7 +1402,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Breaking Down the Grid",
-        blogImage: "/src/assets/images/posts/deatils/1/2.webp",
+        blogImage: image1_2,
         ImageDescription:
           "Three elements make up any grid: (1) columns, (2) gutters, and (3) margins.",
         paragraphs: [
@@ -1368,7 +1427,7 @@ export const blogsData: Blog[] = [
       {
         title: "Examples of Grids in Use",
         example: "Example 1: Hierarchical Grid",
-        blogImage: "/src/assets/images/posts/deatils/1/3.webp",
+        blogImage: image1_3,
         ImageDescription:
           "The New York Times uses a hierarchical grid to achieve its newspaper-like reading experience. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
         paragraphs: [
@@ -1382,7 +1441,7 @@ export const blogsData: Blog[] = [
       },
       {
         example: "Example 2: Column Grid",
-        blogImage: "/src/assets/images/posts/deatils/1/4.webp",
+        blogImage: image1_4,
         ImageDescription:
           "Ritual’s four-column grid makes scanning products easy. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
         paragraphs: [
@@ -1396,7 +1455,7 @@ export const blogsData: Blog[] = [
       },
       {
         example: "Example 3: Modular Grid",
-        blogImage: "/src/assets/images/posts/deatils/1/5.webp",
+        blogImage: image1_5,
         ImageDescription:
           "Behance’s design uses a modular grid, which allows users to easily browse. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
         paragraphs: [
@@ -1410,7 +1469,7 @@ export const blogsData: Blog[] = [
       },
       {
         example: "Example 4: Breaking the Grid",
-        blogImage: "/src/assets/images/posts/deatils/1/6.webp",
+        blogImage: image1_6,
         ImageDescription:
           "Breaking the grid produces a chaotic browsing experience for users. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
         paragraphs: [
@@ -1424,7 +1483,7 @@ export const blogsData: Blog[] = [
       },
       {
         example: "Benefits of the Grid",
-        blogImage: "/src/assets/images/posts/deatils/1/7.webp",
+        blogImage: image1_7,
         ImageDescription:
           "At the mobile size, Behance’s one-column grid (left) was reflowed into a four-column grid structure (right).",
         paragraphs: [
@@ -1449,7 +1508,7 @@ export const blogsData: Blog[] = [
       },
       {
         example: "Choosing and Setting Up Your Grid",
-        blogImage: "/src/assets/images/posts/deatils/1/8.webp",
+        blogImage: image1_8,
         ImageDescription:
           "Easily set the number of columns, the gutter size, and margin size in Figma.",
         paragraphs: [
@@ -1472,7 +1531,7 @@ export const blogsData: Blog[] = [
         ],
       },
       {
-        blogImage: "/src/assets/images/posts/deatils/1/9.webp",
+        blogImage: image1_9,
         ImageDescription:
           "Content or elements should be placed within and across columns, not gutters.",
         paragraphs: [
@@ -1504,7 +1563,7 @@ export const blogsData: Blog[] = [
     id: 15,
     date: "Sunday , 1 Jan 2023",
     title: "Podcast: Creating a better CX Community",
-    image: "/src/assets/images/posts/10.webp",
+    image: image10,
     name: "Orlando Diggs •",
     description: [
       "Starting a community doesn’t need to be complicated, but how do you get started?",
@@ -1521,7 +1580,7 @@ export const blogsData: Blog[] = [
     details: [
       {
         title: "Why a CX Community Matters",
-        blogImage: "/src/assets/images/posts/deatils/5/5.webp",
+        blogImage: image5_5,
         ImageDescription:
           "Illustration of a group collaborating on customer experience improvements.",
         paragraphs01: [
@@ -1533,7 +1592,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Starting from Zero",
-        blogImage: "/src/assets/images/posts/deatils/5/1.webp",
+        blogImage: image5_1,
         ImageDescription:
           "A seed growing into a community tree—a metaphor for starting simple.",
         paragraphs: [
@@ -1549,7 +1608,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "What Makes a Community Thrive?",
-        blogImage: "/src/assets/images/posts/deatils/5/2.webp",
+        blogImage: image5_2,
         ImageDescription:
           "Icons of engagement, events, feedback loops, and content sharing.",
         paragraphs: [
@@ -1568,7 +1627,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Podcast Highlights with Orlando Diggs",
-        blogImage: "/src/assets/images/posts/deatils/5/3.webp",
+        blogImage: image5_3,
         ImageDescription:
           "Photo or illustration of Orlando Diggs with podcast wave graphics.",
         paragraphs: [
@@ -1584,7 +1643,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Tips for Your First 100 Members",
-        blogImage: "/src/assets/images/posts/deatils/5/5.webp",
+        blogImage: image5_5,
         ImageDescription:
           "A staircase with 100 steps metaphor for community growth.",
         paragraphs: [
@@ -1615,7 +1674,7 @@ export const blogsData: Blog[] = [
     id: 16,
     date: "Sunday , 1 Jan 2023",
     title: "Our top 10 Javascript frameworks to use",
-    image: "/src/assets/images/posts/9.webp",
+    image: image9,
     name: "Drew Cano •",
     description: [
       "JavaScript frameworks make development easy with extensive features and functionalities.",
@@ -1632,7 +1691,7 @@ export const blogsData: Blog[] = [
     details: [
       {
         title: "Introduction",
-        blogImage: "/src/assets/images/posts/deatils/6/1.webp",
+        blogImage: image6_1,
         ImageDescription:
           "A collage of logos representing popular JavaScript frameworks.",
         paragraphs01: [
@@ -1644,7 +1703,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "1. React.js",
-        blogImage: "/src/assets/images/posts/deatils/6/2.webp",
+        blogImage: image6_2,
         ImageDescription: "React logo with UI component architecture diagram.",
         paragraphs: [
           {
@@ -1655,7 +1714,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "2. Vue.js",
-        blogImage: "/src/assets/images/posts/deatils/6/3.webp",
+        blogImage: image6_3,
         ImageDescription: "Vue logo with MVVM architecture diagram.",
         paragraphs: [
           {
@@ -1666,7 +1725,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "3. Angular",
-        blogImage: "/src/assets/images/posts/deatils/6/4.webp",
+        blogImage: image6_4,
         ImageDescription: "Angular logo and a dashboard-style admin UI.",
         paragraphs: [
           {
@@ -1677,7 +1736,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "4. Next.js",
-        blogImage: "/src/assets/images/posts/deatils/6/5.webp",
+        blogImage: image6_5,
         ImageDescription:
           "Next.js logo alongside SSR and static rendering icons.",
         paragraphs: [
@@ -1689,7 +1748,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "5. Nuxt.js",
-        blogImage: "/src/assets/images/posts/deatils/6/6.webp",
+        blogImage: image6_6,
         ImageDescription:
           "Nuxt.js logo with modular folder structure screenshot.",
         paragraphs: [
@@ -1716,7 +1775,7 @@ export const blogsData: Blog[] = [
     id: 17,
     date: "Sunday , 1 Jan 2023",
     title: "UX review presentations",
-    image: "/src/assets/images/posts/1.webp",
+    image: image1,
     name: "Olivia Rhye • ",
     description: [
       "How do you create compelling presentations that wow your colleagues and impress your managers?",
@@ -1730,7 +1789,7 @@ export const blogsData: Blog[] = [
     details: [
       {
         title: "What is a Grid System?",
-        blogImage: "/src/assets/images/posts/deatils/4/1.webp",
+        blogImage: image4_1,
         ImageDescription:
           "Illustration showing columns, rows, gutters, and margins forming a structured grid.",
         paragraphs01: [
@@ -1742,7 +1801,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Why Grids Matter in UI Design",
-        blogImage: "/src/assets/images/posts/deatils/4/2.webp",
+        blogImage: image4_2,
         ImageDescription:
           "Consistent UI layouts using grids help improve usability and visual harmony.",
         paragraphs: [
@@ -1758,7 +1817,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Types of Grid Systems",
-        blogImage: "/src/assets/images/posts/deatils/4/3.webp",
+        blogImage: image4_3,
         ImageDescription:
           "Visual breakdown of column grid, modular grid, and hierarchical grid systems.",
         paragraphs: [
@@ -1776,7 +1835,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "How to Create Grid Layouts",
-        blogImage: "/src/assets/images/posts/deatils/4/4.webp",
+        blogImage: image4_4,
         ImageDescription:
           "Grid settings in Figma with 12 columns and 16px gutter.",
         paragraphs: [
@@ -1792,7 +1851,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Applying Grid Systems in Code",
-        blogImage: "/src/assets/images/posts/deatils/4/5.webp",
+        blogImage: image4_5,
         ImageDescription:
           "Tailwind CSS grid implementation mirroring the design system layout.",
         paragraphs: [
@@ -1804,7 +1863,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Best Practices for Grid-Based UI",
-        blogImage: "/src/assets/images/posts/deatils/4/6.webp",
+        blogImage: image4_6,
         ImageDescription:
           "Clean UI layout example following grid best practices.",
         paragraphs: [
@@ -1838,7 +1897,7 @@ export const blogsData: Blog[] = [
     id: 18,
     date: "Sunday , 1 Jan 2023",
     title: "Migrating to Linear 101",
-    image: "/src/assets/images/posts/2.webp",
+    image: image2,
     name: "Phoenix Baker • ",
     description: [
       "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get...",
@@ -1850,7 +1909,7 @@ export const blogsData: Blog[] = [
     details: [
       {
         title: "From Grid Design to Code",
-        blogImage: "/src/assets/images/posts/deatils/2/1.webp",
+        blogImage: image2_1,
         ImageDescription: "Designing grid-based layouts with Tailwind and CSS.",
         paragraphs01: [
           {
@@ -1861,7 +1920,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "CSS vs Tailwind CSS for Grid Layouts",
-        blogImage: "/src/assets/images/posts/deatils/2/2.webp",
+        blogImage: image2_2,
         ImageDescription:
           "Comparing raw CSS grid properties to Tailwind's utility classes.",
         paragraphs: [
@@ -1873,7 +1932,7 @@ export const blogsData: Blog[] = [
       },
       {
         example: "Example 1: Hierarchical Grid (News Layout)",
-        blogImage: "/src/assets/images/posts/deatils/2/3.webp",
+        blogImage: image2_3,
         ImageDescription:
           "News layout with two main columns and article priority based on span.",
         paragraphs: [
@@ -1887,7 +1946,7 @@ export const blogsData: Blog[] = [
       },
       {
         example: "Example 2: Modular Grid for Products",
-        blogImage: "/src/assets/images/posts/deatils/2/4.webp",
+        blogImage: image2_4,
         ImageDescription:
           "Grid of 4 columns for product cards with equal spacing.",
         paragraphs: [
@@ -1901,7 +1960,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Responsive Grid Design in Code",
-        blogImage: "/src/assets/images/posts/deatils/2/5.webp",
+        blogImage: image2_5,
         ImageDescription:
           "Using Tailwind breakpoints to adjust grid layout per device.",
         paragraphs: [
@@ -1917,7 +1976,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Common Mistakes in Grid Coding",
-        blogImage: "/src/assets/images/posts/deatils/2/6.webp",
+        blogImage: image2_6,
         ImageDescription:
           "Avoid putting content in gutters or ignoring column spans.",
         paragraphs: [
@@ -1935,7 +1994,7 @@ export const blogsData: Blog[] = [
       },
       {
         example: "Bonus Tip: Using 8px Grid System in Code",
-        blogImage: "/src/assets/images/posts/deatils/2/7.webp",
+        blogImage: image2_7,
         ImageDescription: "Applying spacing units that are multiples of 8.",
         paragraphs: [
           {
@@ -1961,7 +2020,7 @@ export const blogsData: Blog[] = [
     id: 19,
     date: "Sunday , 1 Jan 2023",
     title: "Building your API Stack",
-    image: "/src/assets/images/posts/3.webp",
+    image: image3,
     name: "Lana Steiner • ",
     description: [
       "The rise of RESTful APIs has been met by a rise in tools for creating, testing, and manag...",
@@ -1973,7 +2032,7 @@ export const blogsData: Blog[] = [
     details: [
       {
         title: "Introduction to Building Your API Stack",
-        blogImage: "/src/assets/images/posts/deatils/3/6.webp",
+        blogImage: image3_6,
         ImageDescription:
           "An overview of modern API stack layers and tools involved in building them.",
         paragraphs01: [
@@ -1985,7 +2044,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Core Components of the API Stack",
-        blogImage: "/src/assets/images/posts/deatils/3/1.webp",
+        blogImage: image3_1,
         ImageDescription:
           "The primary layers of an API stack: Data, Logic, Interface, and Security.",
         paragraphs: [
@@ -2004,7 +2063,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Tools for Designing and Documenting APIs",
-        blogImage: "/src/assets/images/posts/deatils/3/2.webp",
+        blogImage: image3_2,
         ImageDescription:
           "Tools like Postman, Swagger, and Stoplight are essential for API design and collaboration.",
         paragraphs: [
@@ -2020,7 +2079,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Testing and Monitoring Your API",
-        blogImage: "/src/assets/images/posts/deatils/3/3.webp",
+        blogImage: image3_3,
         ImageDescription:
           "Automated tests and monitoring are key to a stable and scalable API.",
         paragraphs: [
@@ -2032,7 +2091,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Securing Your API",
-        blogImage: "/src/assets/images/posts/deatils/3/4.webp",
+        blogImage: image3_4,
         ImageDescription:
           "JWT, API Keys, OAuth, and rate limiting help secure API endpoints.",
         paragraphs: [
@@ -2044,7 +2103,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Versioning and Scaling Your API",
-        blogImage: "/src/assets/images/posts/deatils/3/5.webp",
+        blogImage: image3_5,
         ImageDescription:
           "API versioning and scaling strategies help keep your system stable.",
         paragraphs: [
@@ -2071,7 +2130,7 @@ export const blogsData: Blog[] = [
     id: 20,
     date: "Sunday , 1 Jan 2023",
     title: "Grid system for better Design User Interface",
-    image: "/src/assets/images/posts/4.webp",
+    image: image4,
     name: "Olivia Rhye •",
     description: [
       "A grid system is a design tool used to arrange content on a webpage. It is a series of vertical and horizontal lines that create a matrix of intersecting points, which can be used to align and organize page elements. Grid systems are used to create a consistent look and feel across a website, and can help to make the layout more visually appealing and easier to navigate.",
@@ -2083,7 +2142,7 @@ export const blogsData: Blog[] = [
     ],
     details: [
       {
-        blogImage: "/src/assets/images/posts/deatils/1/1.webp",
+        blogImage: image1_1,
         ImageDescription:
           "Definition: A grid is made up of columns, gutters, and margins that provide a structure for the layout of elements on a page.",
         paragraphs01: [
@@ -2107,7 +2166,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Breaking Down the Grid",
-        blogImage: "/src/assets/images/posts/deatils/1/2.webp",
+        blogImage: image1_2,
         ImageDescription:
           "Three elements make up any grid: (1) columns, (2) gutters, and (3) margins.",
         paragraphs: [
@@ -2132,7 +2191,7 @@ export const blogsData: Blog[] = [
       {
         title: "Examples of Grids in Use",
         example: "Example 1: Hierarchical Grid",
-        blogImage: "/src/assets/images/posts/deatils/1/3.webp",
+        blogImage: image1_3,
         ImageDescription:
           "The New York Times uses a hierarchical grid to achieve its newspaper-like reading experience. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
         paragraphs: [
@@ -2146,7 +2205,7 @@ export const blogsData: Blog[] = [
       },
       {
         example: "Example 2: Column Grid",
-        blogImage: "/src/assets/images/posts/deatils/1/4.webp",
+        blogImage: image1_4,
         ImageDescription:
           "Ritual’s four-column grid makes scanning products easy. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
         paragraphs: [
@@ -2160,7 +2219,7 @@ export const blogsData: Blog[] = [
       },
       {
         example: "Example 3: Modular Grid",
-        blogImage: "/src/assets/images/posts/deatils/1/5.webp",
+        blogImage: image1_5,
         ImageDescription:
           "Behance’s design uses a modular grid, which allows users to easily browse. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
         paragraphs: [
@@ -2174,7 +2233,7 @@ export const blogsData: Blog[] = [
       },
       {
         example: "Example 4: Breaking the Grid",
-        blogImage: "/src/assets/images/posts/deatils/1/6.webp",
+        blogImage: image1_6,
         ImageDescription:
           "Breaking the grid produces a chaotic browsing experience for users. (We highlighted the columns in yellow, the gutters in blue, and the margins in purple.)",
         paragraphs: [
@@ -2188,7 +2247,7 @@ export const blogsData: Blog[] = [
       },
       {
         example: "Benefits of the Grid",
-        blogImage: "/src/assets/images/posts/deatils/1/7.webp",
+        blogImage: image1_7,
         ImageDescription:
           "At the mobile size, Behance’s one-column grid (left) was reflowed into a four-column grid structure (right).",
         paragraphs: [
@@ -2213,7 +2272,7 @@ export const blogsData: Blog[] = [
       },
       {
         example: "Choosing and Setting Up Your Grid",
-        blogImage: "/src/assets/images/posts/deatils/1/8.webp",
+        blogImage: image1_8,
         ImageDescription:
           "Easily set the number of columns, the gutter size, and margin size in Figma.",
         paragraphs: [
@@ -2236,7 +2295,7 @@ export const blogsData: Blog[] = [
         ],
       },
       {
-        blogImage: "/src/assets/images/posts/deatils/1/9.webp",
+        blogImage: image1_9,
         ImageDescription:
           "Content or elements should be placed within and across columns, not gutters.",
         paragraphs: [
