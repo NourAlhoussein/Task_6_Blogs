@@ -11,19 +11,22 @@ import About from "./Pages/About.tsx";
 import NewsLetter from "./Pages/NewsLetter.tsx";
 import BlogPage from "./Pages/BlogPage.tsx";
 
-const routers = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-    children: [
-      { path: "", element: <HomeBlogs /> },
-      { path: ":id", element: <BlogPage /> },
-      { path: "/projects", element: <Projects /> },
-      { path: "/about", element: <About /> },
-      { path: "/newsLetter", element: <NewsLetter /> },
-    ],
-  },
-]);
+const routers = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <App />,
+      children: [
+        { path: "", element: <HomeBlogs /> },
+        { path: ":id", element: <BlogPage /> },
+        { path: "/projects", element: <Projects /> },
+        { path: "/about", element: <About /> },
+        { path: "/newsLetter", element: <NewsLetter /> },
+      ],
+    },
+  ],
+  { basename: "/Task_6_Blogs" }
+);
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <Provider store={store}>

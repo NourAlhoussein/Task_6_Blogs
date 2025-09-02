@@ -1,12 +1,16 @@
 import type { Blog } from "../Types/type";
-
+import image8 from "../../public/images/posts/8.webp";
+import image7_1 from "../../public/images/posts/deatils/7/1.webp";
+import image7_2 from "../../public/images/posts/deatils/7/2.webp";
+import image7_3 from "../../public/images/posts/deatils/7/3.webp";
+import image7_4 from "../../public/images/posts/deatils/7/4.webp";
 export const blogsData: Blog[] = [
   /* --------------id-1---------------- */
   {
     id: 1,
     date: "Sunday , 1 Jan 2023",
     title: "How collaboration makes us better designers",
-    image: "/src/assets/images/posts/8.webp",
+    image: image8,
     name: "Natali Craig •",
     description: [
       "Collaboration can make our teams stronger, and our individual designs better.",
@@ -19,7 +23,7 @@ export const blogsData: Blog[] = [
     details: [
       {
         title: "The Power of Collaboration in Design",
-        blogImage: "/src/assets/images/posts/deatils/7/1.webp",
+        blogImage: image7_1,
         ImageDescription:
           "Team of designers working together on a shared whiteboard.",
         paragraphs01: [
@@ -31,7 +35,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Collaboration = Shared Ownership",
-        blogImage: "/src/assets/images/posts/deatils/7/2.webp",
+        blogImage: image7_2,
         ImageDescription:
           "Illustration of a UX designer and developer co-creating.",
         paragraphs: [
@@ -43,7 +47,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Design Feedback Makes You Stronger",
-        blogImage: "/src/assets/images/posts/deatils/7/2.webp",
+        blogImage: image7_2,
         ImageDescription:
           "A designer presenting wireframes and gathering team feedback.",
         paragraphs: [
@@ -55,7 +59,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Tools That Enable Collaboration",
-        blogImage: "/src/assets/images/posts/deatils/7/3.webp",
+        blogImage: image7_3,
         ImageDescription:
           "Figma, Slack, and whiteboarding tools in use during design collaboration.",
         paragraphs: [
@@ -73,7 +77,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Case Study: Better UI through Collaboration",
-        blogImage: "/src/assets/images/posts/deatils/7/4.webp",
+        blogImage: image7_4,
         ImageDescription:
           "Before-and-after UI mockups showing improvement from team input.",
         paragraphs: [
@@ -583,7 +587,7 @@ export const blogsData: Blog[] = [
     id: 7,
     date: "Sunday , 1 Jan 2023",
     title: "How collaboration makes us better designers",
-    image: "/src/assets/images/posts/8.webp",
+    image: image8,
     name: "Natali Craig •",
     description: [
       "Collaboration can make our teams stronger, and our individual designs better.",
@@ -596,7 +600,7 @@ export const blogsData: Blog[] = [
     details: [
       {
         title: "The Power of Collaboration in Design",
-        blogImage: "/src/assets/images/posts/deatils/7/1.webp",
+        blogImage: image7_1,
         ImageDescription:
           "Team of designers working together on a shared whiteboard.",
         paragraphs01: [
@@ -608,7 +612,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Collaboration = Shared Ownership",
-        blogImage: "/src/assets/images/posts/deatils/7/2.webp",
+        blogImage: image7_2,
         ImageDescription:
           "Illustration of a UX designer and developer co-creating.",
         paragraphs: [
@@ -620,7 +624,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Design Feedback Makes You Stronger",
-        blogImage: "/src/assets/images/posts/deatils/7/2.webp",
+        blogImage: image7_2,
         ImageDescription:
           "A designer presenting wireframes and gathering team feedback.",
         paragraphs: [
@@ -632,7 +636,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Tools That Enable Collaboration",
-        blogImage: "/src/assets/images/posts/deatils/7/3.webp",
+        blogImage: image7_3,
         ImageDescription:
           "Figma, Slack, and whiteboarding tools in use during design collaboration.",
         paragraphs: [
@@ -650,7 +654,7 @@ export const blogsData: Blog[] = [
       },
       {
         title: "Case Study: Better UI through Collaboration",
-        blogImage: "/src/assets/images/posts/deatils/7/4.webp",
+        blogImage: image7_4,
         ImageDescription:
           "Before-and-after UI mockups showing improvement from team input.",
         paragraphs: [

@@ -9,7 +9,7 @@ import { IoCloseSharp } from "react-icons/io5";
 // import type { SetStateAction } from "react";
 import { useContext } from "react";
 import { ModeContext } from "../Context/ModeContext";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 function Navbar() {
   const modeCtx = useContext(ModeContext);
   const { mode, setMode } = modeCtx;
