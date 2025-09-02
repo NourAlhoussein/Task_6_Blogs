@@ -177,7 +177,7 @@ function Navbar() {
                 </AnimatePresence>
               </button>{" "}
               <button
-                className="absolute text-primaryColor dark:text-white bottom-[2%] text-2xl"
+                className="absolute text-primaryColor dark:text-white bottom-[8%] text-2xl"
                 onClick={() => {
                   setOpenMenu((prev) => (prev = !prev));
                 }}
