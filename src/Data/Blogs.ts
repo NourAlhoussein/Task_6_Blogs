@@ -1133,7 +1133,7 @@ export const blogsData: Blog[] = [
     id: 12,
     date: "Sunday , 1 Jan 2023",
     title: "Migrating to Linear 101",
-    image: image2,
+    image: image4,
     name: "Phoenix Baker • ",
     description: [
       "Linear helps streamline software projects, sprints, tasks, and bug tracking. Here’s how to get...",
