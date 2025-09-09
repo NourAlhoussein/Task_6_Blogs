@@ -25,6 +25,12 @@ function BlogComponent({
       return words.slice(0, length).join(" ") + "...";
     }
   };
+  const goToZeroScroll = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
   return (
     <div
       className={`flex ${
@@ -101,7 +107,11 @@ function BlogComponent({
         >
           {blog.title}
 
-          <Link to={`/${blog.id}`} className="transition-all duration-300 ease-in-out hover:scale-[1.5]">
+          <Link
+            to={`/${blog.id}`}
+            className="transition-all duration-300 ease-in-out hover:scale-[1.5]"
+            onClick={goToZeroScroll}
+          >
             <MdArrowOutward />
           </Link>
         </div>
