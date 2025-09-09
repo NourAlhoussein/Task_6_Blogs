@@ -16,6 +16,13 @@ function Navbar() {
   const [active, setActive] = useState("Blog");
   const [openMenu, setOpenMenu] = useState<boolean>(false);
 
+  const goToZeroScroll = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div
       className="flex flex-row items-center justify-between fixed w-full lg:py-[40px] py-[20px]
@@ -123,6 +130,7 @@ function Navbar() {
                     onClick={() => {
                       setActive(item.name);
                       setOpenMenu((prev) => (prev = !prev));
+                      goToZeroScroll();
                     }}
                     className={`font-normal lg:text-xl md:text-lg text-base cursor-pointer ${
                       active === item.name ? "is-active" : ""
