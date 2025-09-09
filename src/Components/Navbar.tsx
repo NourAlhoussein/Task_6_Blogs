@@ -40,6 +40,7 @@ function Navbar() {
               to={item.link}
               onClick={() => {
                 setActive(item.name);
+                goToZeroScroll();
               }}
               className={`font-normal lg:text-xl md:text-lg text-base cursor-pointer ${
                 active === item.name ? "is-active" : ""
